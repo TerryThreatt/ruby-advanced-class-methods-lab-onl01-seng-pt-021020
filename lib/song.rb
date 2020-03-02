@@ -15,8 +15,6 @@ class Song
     song.name = name
     @@all << song
   end 
-  return song
-end 
   end 
   
   def self.destroy_all 
